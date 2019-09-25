@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans&display=swap');
+
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Open Sans', sans-serif; 
+*/
+html {
+    height: 100%;
+}
+
+body {
+    width: 1200px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+div#content {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+h2,
+li {
+    font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.tab-content {
+    height: 100%;
+    background-color: #fed6e3;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 5px 10px 8px #888888;
+}
